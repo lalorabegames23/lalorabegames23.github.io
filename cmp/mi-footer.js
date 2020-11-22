@@ -1,7 +1,7 @@
 class MiFooter extends HTMLElement {
   connectedCallback() {
-    this.innerHTML = /* Html */ 
-        `Copyright &copy; Eduardo Ramirez Bello`;
+    this.innerHTML = /* html */
+      `Copyright &copy; Gilberto Pacheco Gallegos`;
   }
 }
 customElements.define("mi-footer", MiFooter);
